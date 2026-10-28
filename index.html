@@ -183,6 +183,12 @@ textarea{min-height:65px;resize:vertical;line-height:1.55}
           <option>Administrative / Office staff</option>
           <option>Driver / Transport</option>
           <option>Vocational Support Specialist</option>
+          <option>Advocate Counselor</option>
+          <option>Behavioral Health Workforce Specialist</option>
+          <option>Vocational Support Case Manager</option>
+          <option>Workforce Specialist</option>
+          <option>Program Director</option>
+          <option>Youth Services Educational Aide</option>
           <option>Other (describe in notes)</option>
         </select>
       </div>
@@ -192,14 +198,121 @@ textarea{min-height:65px;resize:vertical;line-height:1.55}
       <option value="">-- Select site --</option>
       <option value="fbi">FBI Building (CBA covered)</option>
       <option value="fed-nc">Other federal / government site (non-CBA)</option>
-      <option value="priv-nc">Private contract site (non-CBA)</option>
+      <option value="fed-gov-cba">Other federal / government site (CBA)</option>
       <option value="campus">Melwood main campus (non-CBA)</option>
+      <option value="nike">Nike</option>
+      <option value="arlington">Arlington</option>
+      <option value="humanim">Humanim</option>
       <option value="other">Other site (pilot)</option>
     </select>
     <div id="cba-note" class="al al-b hid">
       <div class="al-t">CBA site</div>
       This site is covered by a collective bargaining agreement.  Decision-making in this guide will be informed by both Melwood policies and the governing CBA.
     </div>
+    <label class="fl">Location</label>
+    <select id="e-loc">
+      <option value="">-- Select location --</option>
+      <optgroup label="Melwood Enterprises">
+        <option>3160 - GSA Central</option>
+        <option>3170 - US Courthouse</option>
+        <option>3200 - Franconia</option>
+        <option>3210 - Judiciary Square</option>
+        <option>3220 - US Secret Service</option>
+        <option>3249 - GW Carver Cntr (USDA DC/PG)</option>
+        <option>3260 - Senate Child Care Center</option>
+        <option>3300 - NEOB</option>
+        <option>3301 - NEOB-RDS (JBAB)</option>
+        <option>3310 - Potomac Annex</option>
+        <option>3312 - Potomac Annex</option>
+        <option>3360 - Yates</option>
+        <option>3370 - Navy Yard</option>
+        <option>3372 - JBAB</option>
+        <option>3374 - Carderock</option>
+        <option>3375 - Anacostia/JBAB</option>
+        <option>3380 - Andrews AFB</option>
+        <option>3390 - NRL</option>
+        <option>3400 - USDA</option>
+        <option>3460 - Kennedy Center</option>
+        <option>3470 - BEP Landscaping</option>
+        <option>3471 - BEP (Mailroom)</option>
+        <option>3472 - BEP (Admin)</option>
+        <option>3490 - Aberdeen Proving Ground</option>
+        <option>3530 - US Naval Academy</option>
+        <option>3531 - Defense Health Agency (DHA)</option>
+        <option>3570 - DOJ</option>
+        <option>3578 - DOJ-COPS</option>
+        <option>3580 - JWACC</option>
+        <option>3620 - FDA</option>
+        <option>3630 - FERC</option>
+        <option>3640 - DARPA</option>
+        <option>3650 - Fort Belvoir (PEO Soldier)</option>
+        <option>3700 - US Coast Guard</option>
+        <option>3801 - Ft. Meade</option>
+        <option>3810 - US Census</option>
+        <option>3860 - USDA</option>
+        <option>3895 - BARC/APHIS</option>
+        <option>3910 - ATF</option>
+        <option>3920 - Peace Corps</option>
+        <option>3940 - DHHQ</option>
+        <option>6320 - NSWC/BUMED/EOD</option>
+        <option>6321 - USARC/AR</option>
+        <option>6324 - Cheltenham Youth Center</option>
+        <option>6330 - State Highway Admin HQ</option>
+        <option>6331 - State Highway Admin Hanover</option>
+        <option>6450 - HQ Fulfillment</option>
+        <option>6501 - ISCAN</option>
+        <option>6600 - Greenhouse Operations</option>
+        <option>0000 - Laundry Operations</option>
+      </optgroup>
+      <optgroup label="Melwood Inc.">
+        <option>0000 - DHR Facilities (122)</option>
+        <option>0000 - Fleet Services (124)</option>
+        <option>3020 - SSA HQ</option>
+        <option>3080 - HUD</option>
+        <option>3100 - Goddard</option>
+        <option>3120 - FBI</option>
+        <option>3140 - JJ Rowley</option>
+        <option>3150 - DOE Landscape</option>
+        <option>3230 - FLETC</option>
+        <option>3270 - BARC/3895 - APHIS</option>
+        <option>3410 - DHR On Site Support</option>
+        <option>6303 - La Plata Landscaping</option>
+        <option>9221 - Nike On Site Support</option>
+        <option>9225 - Nanjemoy On Site Support</option>
+        <option>9230 - Arlington On Site Support</option>
+        <option>xxxx - Freedom Center</option>
+        <option>xxxx - Transportation Security Admin Sys Integration</option>
+        <option>124 - Transportation</option>
+      </optgroup>
+      <optgroup label="Community Services">
+        <option>200 - Melwood Veterans Service</option>
+        <option>201 - Operation Tohidu</option>
+        <option>510 - Workforce Development Office</option>
+        <option>513 - Amazon</option>
+        <option>514 - Workforce Solutions</option>
+        <option>515 - Pre-Employment Transition Svcs</option>
+        <option>516 - Professional Development</option>
+        <option>517 - Job Development &amp; Placement</option>
+        <option>518 - AbilIT</option>
+        <option>519 - Pathways</option>
+        <option>530 - Day Services Upper Marlboro</option>
+        <option>531 - Day Services Waldorf</option>
+        <option>533 - Day Services Arlington</option>
+        <option>534 - Community Personal Support</option>
+        <option>535 - Community Personal Support</option>
+        <option>540 - Recreation Svcs Main Office</option>
+        <option>541 - Camp Accomplish</option>
+        <option>542 - Access Adventures</option>
+        <option>544 - Horticultural Therapy</option>
+        <option>545 - Equine Assisted Therapy</option>
+        <option>548 - Family Supports</option>
+        <option>550 - Employment Services</option>
+        <option>551 - Vocational Supports (AbilityOne)</option>
+        <option>552 - Community Supported Employment</option>
+        <option>553 - Group Supported Employment</option>
+        <option>554 - Melwood JOBS Program</option>
+      </optgroup>
+    </select>
     <label class="fl">Is this employee a JWOD participant?</label>
     <select id="e-jwod" onchange="hJWOD()">
       <option value="">-- Select one --</option>
@@ -653,7 +766,7 @@ function getStaff(){
 
 function hSite(){
   var v=document.getElementById('e-site').value;
-  CBS=(v==='fbi');
+  CBS=(v==='fbi'||v==='fed-gov-cba');
   document.getElementById('cba-note').classList.toggle('hid',!CBS);
   document.getElementById('steward-row').classList.toggle('hid',!CBS);
 }
@@ -1052,6 +1165,9 @@ function bS6(){
   html+='<div class="sc"><div class="lbl">Employee</div><div class="val">'+name+'</div></div>';
   html+='<div class="sc"><div class="lbl">Role</div><div class="val">'+role+'</div></div>';
   html+='<div class="sc"><div class="lbl">Site</div><div class="val">'+siteText+'</div></div>';
+  var lEl=document.getElementById('e-loc');
+  var locText=lEl.options[lEl.selectedIndex]&&lEl.selectedIndex>0?lEl.options[lEl.selectedIndex].text:'';
+  if(locText)html+='<div class="sc"><div class="lbl">Location</div><div class="val">'+locText+'</div></div>';
   html+='<div class="sc"><div class="lbl">JWOD</div><div class="val">'+(jwod==='yes'?'Yes':jwod==='unsure'?'Verify':'No')+'</div></div>';
   html+='<div class="sc"><div class="lbl">CBA covered</div><div class="val">'+(CBS?'Yes':'No')+'</div></div>';
   html+='<div class="sc"><div class="lbl">Incident date</div><div class="val">'+idate+'</div></div>';
@@ -1111,6 +1227,7 @@ function buildEntry(statusVal){
     name:document.getElementById('e-name').value||'Not entered',
     role:document.getElementById('e-role').value||'Not specified',
     site:sEl.options[sEl.selectedIndex]?(sEl.options[sEl.selectedIndex].text||'Not specified'):'Not specified',
+    location:(function(){var lEl=document.getElementById('e-loc');return lEl.selectedIndex>0?lEl.options[lEl.selectedIndex].text:'';})(),
     cba:CBS,
     jwod:document.getElementById('e-jwod').value,
     behavior:document.getElementById('i-sub').value||document.getElementById('i-other').value||'Not specified',
